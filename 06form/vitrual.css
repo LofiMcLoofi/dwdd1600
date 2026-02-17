@@ -1,0 +1,224 @@
+body {
+    font-family: "Quantico", sans-serif;
+    margin: 0;
+}
+
+/* header stuff here */
+header {
+    background-color: #eaeaea;
+    padding: 1rem 10px;
+}
+
+header span {
+    color: #13678a;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* navigation stuff here */
+nav {
+    background-color: #45c4b0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0 10px;
+    list-style-type: none;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: .83rem 1rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #024873;
+    font-weight: 700;
+}
+
+nav li.active a {
+    background-color: #9aeba3;
+    color: #012030;
+}
+
+nav li a:hover {
+    color: white;
+}
+
+/* Main stuff here */
+main {
+    padding: 1rem 10px;
+}
+
+main h1 {
+    color: #012030;
+}
+
+main h2 {
+    color: #13678a;
+    margin-bottom: .2rem;
+}
+
+main p {
+    margin: 0;
+    color: #000;
+}
+
+main ol {
+    padding: .3rem 30px;
+
+}
+
+main dl dt {
+    color: #012030;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+main dl dd {
+    color: #13678a;
+    font-size: .9rem;
+    margin-left: 20px;
+}
+
+main ul {
+    list-style-type: square;
+}
+
+main ul li {
+    line-height: 150%;
+    margin-bottom: .3rem;
+    font-size: .9rem;
+}
+
+main strong {
+    font-weight: 700;
+    color: #012030;
+}
+
+main em {
+    font-weight: 300;
+    color: #012030;
+}
+
+main address {
+    font-style: normal;
+    background-color: #45c4b0;
+    padding: .3rem;
+    border-radius: 10px;
+    border: 1.5px solid #13678a;
+    width: 200px;
+}
+
+main a {
+    color: #13678a;
+}
+
+main a:hover {
+    color: rgb(154, 235, 163);
+}
+
+/* main page image stuff here */
+figure.kizuna {
+    margin: 0 0 0 10px;
+    width: 45%;
+    float: right;
+}
+
+figure.kizuna img {
+    width: 100%;
+    height: auto;
+}
+
+figure.kizuna figcaption {
+    text-align: center;
+    font-size: .75rem;
+}
+
+/* myForm stuff here */
+.myForm fieldset {
+    border: 1px solid #45c4b0;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+
+.myForm legend {
+    color: #45c4b0;
+    font-size: .8rem;
+}
+
+.myForm label {
+    margin: .5rem;
+}
+
+.myForm label, .myForm select, .myForm [type=text], .myForm [type=email], .myForm [type=tell], .myForm textarea {
+    display: block;
+}
+
+.myForm [type=text], .myForm [type=tell], .myForm select, .myForm [type=email], .myForm textarea {
+    border: solid 1px #012030;
+    padding: .3rem;
+    width: 250px;
+    border-radius: .3rem;
+    font-family: "Quantico", sans-serif;
+}
+
+.myForm textarea {
+    height: 6rem;
+}
+
+.myForm :required {
+    background-color: rgba(156, 51, 53, 0.1);
+}
+
+.myForm [type=submit] {
+    background-color: #9aeba3;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: #13678a;
+    margin: 1rem 0 0 1vw;
+}
+
+/* images stuff here */
+h1,
+h2 {
+    padding-left: 1.8rem;
+}
+
+div.tubers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 10px;
+    padding: 1rem;
+}
+
+div.tubers figure {
+    margin: 0;
+}
+
+div.tubers figcaption {
+    text-align: center;
+    font-size: 1rem;
+    color: #45c4b0;
+    font-weight: 700;
+}
+
+div.tubers img {
+    width: auto;
+    height: 500px;
+}
+
+/* Footer stuff here */
+footer {
+    background-color: #dafdba;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: .8rem;
+    color: #333;
+    letter-spacing: 3px;
+}
