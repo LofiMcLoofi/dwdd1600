@@ -44,7 +44,7 @@
                 <legend>costumer information</legend>
                 <label>Full Name*<input type="text" name="fname" required></label>
                 <label>Email*<input type="email" name="email" required></label>
-                <label>Cell Number*<input type="tell" name="phone" required placeholder="123-876-4567"></label>
+                <label>Cell Number*<input type="tel" name="phone" required placeholder="123-876-4567"></label>
             </fieldset>
 
             <fieldset required>
@@ -64,10 +64,10 @@
 
                 <label>Where to recieve updates
                     <select name="recieve">
-                        <option value="">Please Select</option>
-                        <option value="">None</option>
-                        <option value="">Email</option>
-                        <option value="">Text</option>
+                        <option value="select">Please Select</option>
+                        <option value="none">None</option>
+                        <option value="email">Email</option>
+                        <option value="text">Text</option>
                     </select>
                 </label>
             </fieldset>
@@ -78,5 +78,6 @@
 
             <input type="submit" value="done">
         </form>
+
 
     </main>
