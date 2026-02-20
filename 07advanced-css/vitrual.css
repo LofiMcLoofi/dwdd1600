@@ -183,11 +183,11 @@ figure.kizuna figcaption {
     margin: .5rem;
 }
 
-.myForm label, .myForm select, .myForm [type=text], .myForm [type=email], .myForm [type=tell], .myForm textarea {
+.myForm label, .myForm select, .myForm [type=text], .myForm [type=email], .myForm [type=tel], .myForm textarea {
     display: block;
 }
 
-.myForm [type=text], .myForm [type=tell], .myForm select, .myForm [type=email], .myForm textarea {
+.myForm [type=text], .myForm [type=tel], .myForm select, .myForm [type=email], .myForm textarea {
     border: solid 1px #012030;
     padding: .3rem;
     width: 250px;
@@ -290,4 +290,5 @@ footer p {
 header, nav, main, footer {
     max-width: 64rem;
     margin: 0 auto;
+
 }
