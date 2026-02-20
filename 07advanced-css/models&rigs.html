@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Sofia Peterson">
+    <meta name="Description" content="The History of Vocaloid and Vtubers">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="vitrual.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Models and Rigs</title>
+</head>
+
+<body>
+
+    <!-- start the page head-->
+    <header>
+        <img src="images/logo.webp" alt="Logo for Vocaloids and VTubers" width="70" height="45">
+        <span>Vocaloids and Vtubers</span>
+    </header>
+
+    <!-- start the page navigation-->
+    <nav>
+        <ul>
+            <li><a href="index.html">The History of Vocaloids and Vtubers</a></li>
+            <li><a href="vocaloids.html">Vocaloids</a></li>
+            <li><a href="vtubers.html">Vtubers</a></li>
+            <li class="active"><a href="models&rigs.html">Models and Rigs</a></li>
+        </ul>
+
+    </nav>
+
+   <!-- start the page main -->
+    <main>
+        <h2>Membership required to proceed to Models and Rigs Page</h2>
+        <p></p>
+        <form method="get" class="myForm" action="thanks.html">
+
+            <fieldset>
+                <legend>costumer information</legend>
+                <label>Full Name*<input type="text" name="fname" required></label>
+                <label>Email*<input type="email" name="email" required></label>
+                <label>Cell Number*<input type="tell" name="phone" required placeholder="123-876-4567"></label>
+            </fieldset>
+
+            <fieldset required>
+                <legend>Subscriptions (required)</legend>
+
+                <label><input type="radio" name="method" value="basic">Basic Subscription (4.99$ per month)</label>
+                <label><input type="radio" name="method" value="Premium">Premium Subscription (14.99$ per month)</label>
+                <label><input type="radio" name="method" value="ultimate">Ultimate Subscription (24.99$ per month)</label>
+                <label><input type="radio" name="method" value="home" onchange="window.location.href='index.html';">Not interested</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Newsletter Notification</legend>
+                <label><input type="checkbox" name="software" value="chosen">Software Updates</label>
+                <label><input type="checkbox" name="artists" value="chosen">Vtuber Model Artist updates</label>
+                <label><input type="checkbox" name="songs" value="chosen">New Vocaloid Songs Updates</label>
+
+                <label>Where to recieve updates
+                    <select name="recieve">
+                        <option value="">Please Select</option>
+                        <option value="">None</option>
+                        <option value="">Email</option>
+                        <option value="">Text</option>
+                    </select>
+                </label>
+            </fieldset>
+
+            <label>Comments
+                <textarea name="comments"></textarea>
+            </label>
+
+            <input type="submit" value="done">
+        </form>
+
+    </main>
